@@ -5,19 +5,29 @@
 //  Created by: Elaidzha Shchukin
 //  Date: 06.05.2023
 //
-//  */ 
+//  */
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+       
+        ScrollView {
+            VStack {
+                ForEach(0..<10) {index in
+                    ScrollView(.horizontal, showsIndicators: false, content:) {
+                        HStack {
+                            ForEach(0..<20) {index in
+                                RoundedRectangle(cornerRadius: 20.5)
+                                    .fill(Color.white)
+                                    .frame(width: 200, height: 150)
+                                
+                            }
+                        }
+                    }
+                }
+            }
         }
-        .padding()
     }
 }
 
