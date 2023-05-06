@@ -1,9 +1,11 @@
+//  /*
 //
-//  ContentView.swift
-//  Implementing a ScrollView in SwiftUI
+//  Project: Implementing a ScrollView in SwiftUI
+//  File: ContentView.swift
+//  Created by: Elaidzha Shchukin
+//  Date: 06.05.2023
 //
-//  Created by Elaidzha Shchukin on 06.05.2023.
-//
+//  */ 
 
 import SwiftUI
 
